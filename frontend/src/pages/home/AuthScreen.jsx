@@ -15,7 +15,7 @@ const AuthScreen = () => {
 		<div className='relative hero-bg'>
 			{/* Navbar */}
 			<header className='flex items-center justify-between max-w-6xl p-4 pb-10 mx-auto'>
-				<img src='/mjflixmovies.png' alt='Mjflix logo' className='w-32 md:w-52' />
+				<img src='/mjflix.png' alt='Netflix Logo' className='w-32 md:w-52' />
 				<Link to={"/login"} className='px-2 py-1 text-white bg-red-600 rounded'>
 					Sign In
 				</Link>
