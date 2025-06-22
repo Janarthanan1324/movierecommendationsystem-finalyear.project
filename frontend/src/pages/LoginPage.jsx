@@ -17,7 +17,7 @@ const LoginPage = () => {
 		<div className='w-full h-screen hero-bg'>
 			<header className='flex items-center justify-between max-w-6xl p-4 mx-auto'>
 				<Link to={"/"}>
-					<img src='/mjflix.png' alt='Mj flix logo' className='w-52' />
+					<img src='/mjflixmovies.png' alt='Mj flix logo' className='w-52' />
 				</Link>
 			</header>
 
