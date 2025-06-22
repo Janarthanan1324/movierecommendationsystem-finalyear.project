@@ -41,6 +41,10 @@ if (ENV_VARS.NODE_ENV === "production") {
 }
 
 // Start server
+app.listen("https://movierecommendationsystem-finalyear.vercel.app/", () => {
+  console.log("Server started...");
+});
+
 app.listen(ENV_VARS.PORT, () => {
 	console.log(`🚀 Server started at http://localhost:${ENV_VARS.PORT}`);
 	connectDB(); // ✅ Connect after server starts
